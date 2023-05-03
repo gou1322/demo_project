@@ -1,4 +1,4 @@
 FROM nginx:alpine
 LABEL maintainer address "goutham"
-COPY ./ /var/share/nginx/html
+COPY ./ /usr/share/nginx/html
 EXPOSE 80
